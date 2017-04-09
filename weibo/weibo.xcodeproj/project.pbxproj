@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		2A08E5F31E9A10A800A07321 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A08E5F21E9A10A800A07321 /* main.m */; };
 		2A08E5F61E9A10A800A07321 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A08E5F51E9A10A800A07321 /* AppDelegate.m */; };
-		2A08E5F91E9A10A800A07321 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A08E5F81E9A10A800A07321 /* ViewController.m */; };
 		2A08E5FC1E9A10A800A07321 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A08E5FA1E9A10A800A07321 /* Main.storyboard */; };
 		2A08E5FE1E9A10A800A07321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A08E5FD1E9A10A800A07321 /* Assets.xcassets */; };
 		2A08E6011E9A10A800A07321 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A08E5FF1E9A10A800A07321 /* LaunchScreen.storyboard */; };
 		2A08E60C1E9A10A800A07321 /* weiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A08E60B1E9A10A800A07321 /* weiboTests.m */; };
 		2A08E6171E9A10A800A07321 /* weiboUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A08E6161E9A10A800A07321 /* weiboUITests.m */; };
+		2A08E6301E9A17FF00A07321 /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A08E62F1E9A17FF00A07321 /* MainTabBarViewController.m */; };
+		2A08E6331E9A19D900A07321 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A08E6321E9A19D900A07321 /* HomeTableViewController.m */; };
+		2A08E6361E9A19E700A07321 /* MessageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A08E6351E9A19E700A07321 /* MessageTableViewController.m */; };
+		2A08E6391E9A19F800A07321 /* DiscoverTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A08E6381E9A19F800A07321 /* DiscoverTableViewController.m */; };
+		2A08E63C1E9A1A3A00A07321 /* MeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A08E63B1E9A1A3A00A07321 /* MeTableViewController.m */; };
 		E45B5A569E33F929CA634EC4 /* libPods-weibo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06C01367EE2A92BF70FED261 /* libPods-weibo.a */; };
 /* End PBXBuildFile section */
 
@@ -42,8 +46,6 @@
 		2A08E5F21E9A10A800A07321 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2A08E5F41E9A10A800A07321 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2A08E5F51E9A10A800A07321 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2A08E5F71E9A10A800A07321 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2A08E5F81E9A10A800A07321 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2A08E5FB1E9A10A800A07321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A08E5FD1E9A10A800A07321 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A08E6001E9A10A800A07321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +56,16 @@
 		2A08E6121E9A10A800A07321 /* weiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A08E6161E9A10A800A07321 /* weiboUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weiboUITests.m; sourceTree = "<group>"; };
 		2A08E6181E9A10A800A07321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A08E62E1E9A17FF00A07321 /* MainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
+		2A08E62F1E9A17FF00A07321 /* MainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
+		2A08E6311E9A19D900A07321 /* HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
+		2A08E6321E9A19D900A07321 /* HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
+		2A08E6341E9A19E700A07321 /* MessageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTableViewController.h; sourceTree = "<group>"; };
+		2A08E6351E9A19E700A07321 /* MessageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTableViewController.m; sourceTree = "<group>"; };
+		2A08E6371E9A19F800A07321 /* DiscoverTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverTableViewController.h; sourceTree = "<group>"; };
+		2A08E6381E9A19F800A07321 /* DiscoverTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverTableViewController.m; sourceTree = "<group>"; };
+		2A08E63A1E9A1A3A00A07321 /* MeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeTableViewController.h; sourceTree = "<group>"; };
+		2A08E63B1E9A1A3A00A07321 /* MeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeTableViewController.m; sourceTree = "<group>"; };
 		44925B832F7E08367B74D096 /* Pods-weibo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weibo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-weibo/Pods-weibo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,10 +120,9 @@
 		2A08E5F01E9A10A800A07321 /* weibo */ = {
 			isa = PBXGroup;
 			children = (
+				2A08E6241E9A17CA00A07321 /* Classes */,
 				2A08E5F41E9A10A800A07321 /* AppDelegate.h */,
 				2A08E5F51E9A10A800A07321 /* AppDelegate.m */,
-				2A08E5F71E9A10A800A07321 /* ViewController.h */,
-				2A08E5F81E9A10A800A07321 /* ViewController.m */,
 				2A08E5FA1E9A10A800A07321 /* Main.storyboard */,
 				2A08E5FD1E9A10A800A07321 /* Assets.xcassets */,
 				2A08E5FF1E9A10A800A07321 /* LaunchScreen.storyboard */,
@@ -145,6 +156,95 @@
 				2A08E6181E9A10A800A07321 /* Info.plist */,
 			);
 			path = weiboUITests;
+			sourceTree = "<group>";
+		};
+		2A08E6241E9A17CA00A07321 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2A08E6261E9A17CA00A07321 /* Tools */,
+				2A08E6251E9A17CA00A07321 /* Model */,
+				2A08E6271E9A17CA00A07321 /* ViewModel */,
+				2A08E6281E9A17CA00A07321 /* VIews */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2A08E6251E9A17CA00A07321 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A08E6261E9A17CA00A07321 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		2A08E6271E9A17CA00A07321 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2A08E6281E9A17CA00A07321 /* VIews */ = {
+			isa = PBXGroup;
+			children = (
+				2A08E62B1E9A17CA00A07321 /* Main */,
+				2A08E62A1E9A17CA00A07321 /* Home */,
+				2A08E62D1E9A17CA00A07321 /* Message */,
+				2A08E6291E9A17CA00A07321 /* Discover */,
+				2A08E62C1E9A17CA00A07321 /* Me */,
+			);
+			path = VIews;
+			sourceTree = "<group>";
+		};
+		2A08E6291E9A17CA00A07321 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				2A08E6371E9A19F800A07321 /* DiscoverTableViewController.h */,
+				2A08E6381E9A19F800A07321 /* DiscoverTableViewController.m */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		2A08E62A1E9A17CA00A07321 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2A08E6311E9A19D900A07321 /* HomeTableViewController.h */,
+				2A08E6321E9A19D900A07321 /* HomeTableViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2A08E62B1E9A17CA00A07321 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2A08E62E1E9A17FF00A07321 /* MainTabBarViewController.h */,
+				2A08E62F1E9A17FF00A07321 /* MainTabBarViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2A08E62C1E9A17CA00A07321 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				2A08E63A1E9A1A3A00A07321 /* MeTableViewController.h */,
+				2A08E63B1E9A1A3A00A07321 /* MeTableViewController.m */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		2A08E62D1E9A17CA00A07321 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				2A08E6341E9A19E700A07321 /* MessageTableViewController.h */,
+				2A08E6351E9A19E700A07321 /* MessageTableViewController.m */,
+			);
+			path = Message;
 			sourceTree = "<group>";
 		};
 		8AD6811B7C195A20F4B7A684 /* Pods */ = {
@@ -348,9 +448,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A08E5F91E9A10A800A07321 /* ViewController.m in Sources */,
+				2A08E6331E9A19D900A07321 /* HomeTableViewController.m in Sources */,
+				2A08E6391E9A19F800A07321 /* DiscoverTableViewController.m in Sources */,
+				2A08E63C1E9A1A3A00A07321 /* MeTableViewController.m in Sources */,
+				2A08E6301E9A17FF00A07321 /* MainTabBarViewController.m in Sources */,
 				2A08E5F61E9A10A800A07321 /* AppDelegate.m in Sources */,
 				2A08E5F31E9A10A800A07321 /* main.m in Sources */,
+				2A08E6361E9A19E700A07321 /* MessageTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +602,7 @@
 			baseConfigurationReference = 44925B832F7E08367B74D096 /* Pods-weibo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = weibo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.3reality.Reality.weibo;
@@ -510,6 +615,7 @@
 			baseConfigurationReference = 07E97D33D704AFAB00CE9103 /* Pods-weibo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = weibo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.3reality.Reality.weibo;
@@ -582,6 +688,7 @@
 				2A08E61D1E9A10A800A07321 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A08E61E1E9A10A800A07321 /* Build configuration list for PBXNativeTarget "weiboTests" */ = {
 			isa = XCConfigurationList;
@@ -590,6 +697,7 @@
 				2A08E6201E9A10A800A07321 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A08E6211E9A10A800A07321 /* Build configuration list for PBXNativeTarget "weiboUITests" */ = {
 			isa = XCConfigurationList;
@@ -598,6 +706,7 @@
 				2A08E6231E9A10A800A07321 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
