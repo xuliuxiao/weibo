@@ -11,7 +11,7 @@
 #import "MessageTableViewController.h"
 #import "DiscoverTableViewController.h"
 #import "MeTableViewController.h"
-
+#import "MainTabBar.h"
 
 @interface MainTabBarViewController ()
 
@@ -21,6 +21,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    MainTabBar *mainTabbar = [[MainTabBar alloc] init];
+    
+    [self setValue:mainTabbar forKey:@"tabBar"];
+    
     
     [self addChildViewController:[HomeTableViewController new] imageName:@"tabbar_home" titleName:@"首页"];
     [self addChildViewController:[MessageTableViewController new] imageName:@"tabbar_message_center" titleName:@"消息"];

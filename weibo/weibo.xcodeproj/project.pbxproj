@@ -19,6 +19,8 @@
 		2A08E6361E9A19E700A07321 /* MessageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A08E6351E9A19E700A07321 /* MessageTableViewController.m */; };
 		2A08E6391E9A19F800A07321 /* DiscoverTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A08E6381E9A19F800A07321 /* DiscoverTableViewController.m */; };
 		2A08E63C1E9A1A3A00A07321 /* MeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A08E63B1E9A1A3A00A07321 /* MeTableViewController.m */; };
+		2A08E6401E9A2AAB00A07321 /* MainTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A08E63F1E9A2AAB00A07321 /* MainTabBar.m */; };
+		2A08E6441E9A32DE00A07321 /* UIView+YPGeneral.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A08E6431E9A32DE00A07321 /* UIView+YPGeneral.m */; };
 		E45B5A569E33F929CA634EC4 /* libPods-weibo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06C01367EE2A92BF70FED261 /* libPods-weibo.a */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +68,11 @@
 		2A08E6381E9A19F800A07321 /* DiscoverTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverTableViewController.m; sourceTree = "<group>"; };
 		2A08E63A1E9A1A3A00A07321 /* MeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeTableViewController.h; sourceTree = "<group>"; };
 		2A08E63B1E9A1A3A00A07321 /* MeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeTableViewController.m; sourceTree = "<group>"; };
+		2A08E63E1E9A2AAB00A07321 /* MainTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBar.h; sourceTree = "<group>"; };
+		2A08E63F1E9A2AAB00A07321 /* MainTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBar.m; sourceTree = "<group>"; };
+		2A08E6411E9A31E100A07321 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2A08E6421E9A32DE00A07321 /* UIView+YPGeneral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YPGeneral.h"; sourceTree = "<group>"; };
+		2A08E6431E9A32DE00A07321 /* UIView+YPGeneral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YPGeneral.m"; sourceTree = "<group>"; };
 		44925B832F7E08367B74D096 /* Pods-weibo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weibo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-weibo/Pods-weibo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,6 +130,7 @@
 				2A08E6241E9A17CA00A07321 /* Classes */,
 				2A08E5F41E9A10A800A07321 /* AppDelegate.h */,
 				2A08E5F51E9A10A800A07321 /* AppDelegate.m */,
+				2A08E6411E9A31E100A07321 /* PrefixHeader.pch */,
 				2A08E5FA1E9A10A800A07321 /* Main.storyboard */,
 				2A08E5FD1E9A10A800A07321 /* Assets.xcassets */,
 				2A08E5FF1E9A10A800A07321 /* LaunchScreen.storyboard */,
@@ -179,6 +187,8 @@
 		2A08E6261E9A17CA00A07321 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				2A08E6421E9A32DE00A07321 /* UIView+YPGeneral.h */,
+				2A08E6431E9A32DE00A07321 /* UIView+YPGeneral.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -223,6 +233,7 @@
 		2A08E62B1E9A17CA00A07321 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				2A08E63D1E9A2A8B00A07321 /* Views */,
 				2A08E62E1E9A17FF00A07321 /* MainTabBarViewController.h */,
 				2A08E62F1E9A17FF00A07321 /* MainTabBarViewController.m */,
 			);
@@ -245,6 +256,15 @@
 				2A08E6351E9A19E700A07321 /* MessageTableViewController.m */,
 			);
 			path = Message;
+			sourceTree = "<group>";
+		};
+		2A08E63D1E9A2A8B00A07321 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2A08E63E1E9A2AAB00A07321 /* MainTabBar.h */,
+				2A08E63F1E9A2AAB00A07321 /* MainTabBar.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		8AD6811B7C195A20F4B7A684 /* Pods */ = {
@@ -448,6 +468,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A08E6401E9A2AAB00A07321 /* MainTabBar.m in Sources */,
 				2A08E6331E9A19D900A07321 /* HomeTableViewController.m in Sources */,
 				2A08E6391E9A19F800A07321 /* DiscoverTableViewController.m in Sources */,
 				2A08E63C1E9A1A3A00A07321 /* MeTableViewController.m in Sources */,
@@ -455,6 +476,7 @@
 				2A08E5F61E9A10A800A07321 /* AppDelegate.m in Sources */,
 				2A08E5F31E9A10A800A07321 /* main.m in Sources */,
 				2A08E6361E9A19E700A07321 /* MessageTableViewController.m in Sources */,
+				2A08E6441E9A32DE00A07321 /* UIView+YPGeneral.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -603,6 +625,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = weibo/PrefixHeader.pch;
 				INFOPLIST_FILE = weibo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.3reality.Reality.weibo;
@@ -616,6 +639,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = weibo/PrefixHeader.pch;
 				INFOPLIST_FILE = weibo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.3reality.Reality.weibo;
