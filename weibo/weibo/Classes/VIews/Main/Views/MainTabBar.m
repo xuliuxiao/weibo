@@ -33,7 +33,7 @@
     if (_composeBtn == nil)
     {
         _composeBtn = [[UIButton alloc] init];
-        
+        [_composeBtn addTarget:self action:@selector(clickAddBtn) forControlEvents:UIControlEventTouchUpInside];
         // 设置图片
         [_composeBtn setBackgroundImage:[UIImage imageNamed:@"tabbar_compose_button"] forState:UIControlStateNormal];
         [_composeBtn setBackgroundImage:[UIImage imageNamed:@"tabbar_compose_button_highlighted"] forState:UIControlStateSelected];
@@ -74,8 +74,14 @@
 
 
 }
+#pragma mark - 点击加号按钮
+- (void)clickAddBtn{
 
+    if ([self.mainTabarDelegate respondsToSelector:@selector(addBtnClick)]) {
+        [self.mainTabarDelegate addBtnClick];
+    }
 
+}
 
 
 @end

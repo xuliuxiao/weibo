@@ -13,7 +13,7 @@
 #import "MeTableViewController.h"
 #import "MainTabBar.h"
 
-@interface MainTabBarViewController ()
+@interface MainTabBarViewController ()<MainTabBarDelegate>
 
 @end
 
@@ -23,7 +23,7 @@
     [super viewDidLoad];
     
     MainTabBar *mainTabbar = [[MainTabBar alloc] init];
-    
+    mainTabbar.mainTabarDelegate = self;
     [self setValue:mainTabbar forKey:@"tabBar"];
     
     
@@ -54,6 +54,15 @@
    
     [self addChildViewController:navigationVC];
     
+}
+#pragma mark - 加号按钮的点击方法
+- (void)addBtnClick{
+
+    NSLog(@"我是点击按钮以后出现的方法");
+    
+
+
+
 }
 
 
